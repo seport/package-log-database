@@ -1,0 +1,22 @@
+<div id="main">
+  <div id="top"></div><div id="left"></div>
+  <div id="content">
+  	<h1>Enter a new package</h1>
+  	<%= form_for(@package) do |f| %>  
+  <div class="field"> 
+  	<%= f.date_field :in_date, :value => Time.now.strftime("%Y-%m-%d") %><br/>
+    <%= f.text_field :name, :placeholder => "Addressed To" %> <br/>
+    <%= f.text_field :sender, :placeholder => "From" %><br/>
+    <%= f.text_field :package_type, :placeholder => "Des (Box/Env)" %><br/>
+    <%= f.text_field :in_by, :placeholder => "In By" %><br/>
+  </div> 
+  <div class="actions"> 
+    <%= f.submit "Create" %>
+<% end %>
+<a href="/index">Cancel</a>
+</div> 
+  </div>
+  <div id="right"></div>
+  <div id="push"></div>
+</div>
+<div id="bottom"></div>

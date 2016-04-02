@@ -1,0 +1,7 @@
+// Place all the styles related to the packages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+tr:nth-child(odd){background-color: #CCCCCC;}
+tr:nth-child(1){background-color: #3A94C1;}
+tr{height: 40px;}
+.rows:hover {background-color: #DB2929; cursor: pointer;}

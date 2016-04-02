@@ -1,0 +1,18 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+*{margin: 0;}
+html, body{height: 100%; background-color: white; font-family: arial; font-size: 12pt; min-width: 787px;}
+#content{padding: 30px;}
+#main{min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -10px;
+position: relative;}
+
+#top, #left, #right, #bottom{background-image: url('http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2012/10/Striped-pattern.png')}
+#top{position: absolute; top: 0; left: 0; right: 0; height: 10px;}
+#left{position: absolute; top:0; left: 0; width: 10px; height: 100%;}
+#right{position: absolute; top: 0; right: 0; width: 10px; height: 100%;}
+#bottom, #push{height: 10px;}
+#bottom{width: 100%;}
