@@ -1,3 +1,6 @@
 = UCHA Package Log
 ==About
 This package log was developed for the University Cooperative Housing Association's mail room to replace the package log. It is used to keep track of delivered and picked up packages.
+
+==Screenshots
+http://seport.xyz/packagelogtab.png
