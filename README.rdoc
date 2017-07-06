@@ -6,9 +6,9 @@ This package log was developed for the University Cooperative Housing Associatio
 http://seport.xyz/packagelogtab.png
 
 ==Built With
-* [Ruby on Rails](http://rubyonrails.org/) - Application framework
-* [Rails Signature Pad](https://github.com/tomichj/signature-pad-rails) - Signature gem
-* [will_paginate](https://github.com/mislav/will_paginate) - Pagination gem
+* {Ruby on Rails}[http://rubyonrails.org/] - Application framework
+* {Rails Signature Pad}[https://github.com/tomichj/signature-pad-rails] - Signature gem
+* {will_paginate}[https://github.com/mislav/will_paginate] - Pagination gem
 
 ==Aknowledgements
-* [Codecademy](https://www.codecademy.com/) taught me everything I know about Ruby on Rails.
+* {Codecademy}[https://www.codecademy.com/] taught me everything I know about Ruby on Rails.
